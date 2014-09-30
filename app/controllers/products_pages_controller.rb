@@ -4,4 +4,10 @@ class ProductsPagesController < ApplicationController
 
   def global
   end
+
+  def reperen
+  end
+
+  def products
+  end
 end

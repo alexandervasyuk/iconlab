@@ -6,7 +6,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href=<%= root_path%>>
-                <%= image_tag "iconlab-logo-bw.png", id:"logo-bw"%>
+                <%= image_tag "iconlab-logo-bw.png", id:""%>
             </a>
         </div>
 
@@ -18,22 +18,22 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">Home</a>
+                    <%= link_to "Home", root_path, class:"page-scroll"%>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#download">US</a>
+                    <%= link_to "US", us_path, class:"page-scroll"%>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Global</a>
+                    <%= link_to "Global", global_path, class:"page-scroll"%>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">About</a>
+                    <%= link_to "About", about_path, class:"page-scroll"%>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">News</a>
+                    <%= link_to "News", news_path, class:"page-scroll"%>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <%= link_to "Contact", contact_path, class:"page-scroll"%>
                 </li>
             </ul>
         </div>
