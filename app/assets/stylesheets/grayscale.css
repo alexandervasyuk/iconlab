@@ -203,85 +203,7 @@ a:focus {
     -moz-transition-duration: 1s;
 }
 
-.btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
-.btn-normal {
-    position: fixed;
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    font-size: 2em;
-    color: #000;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-normal:hover,
-.btn-normal:focus {
-    outline: 0;
-    color: #000;
-    background: rgba(255,255,255,.1);
-}
-
-.btn-normal i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.btn-normal:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
-.btn-normal .left {
-    position: fixed;
-    top:50%;
-    left:0;
-    margin-left:10px;
-}
-
-.btn-normal .right {
-    position: fixed;
-    top:50%;
-    right:0;
-    margin-right:10px;
-}
-
-.btn-normal .left-text {
-    position: fixed;
-    top:50%;
-    left:0;
-    margin-left:30px;
-}
-
-.btn-normal .right-text {
-    position: fixed;
-    top:50%;
-    right:0;
-    margin-right:30px;
-}
-
-@-webkit-keyframes pulse {    
+/*@-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -313,6 +235,84 @@ a:focus {
         -moz-transform: scale(1);
         transform: scale(1);
     }
+}*/
+
+/*.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}*/
+
+.btn-normal {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    font-size: 2em;
+    color: #000;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-normal:hover,
+.btn-normal:focus {
+    outline: 0;
+    color: #000;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-normal i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+/*.btn-normal:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}*/
+
+.btn-normal .left {
+    position: fixed;
+    top:50%;
+    left:0;
+    margin-left:10px;
+}
+
+.btn-normal .right {
+    position: fixed;
+    top:50%;
+    right:0;
+    margin-right:10px;
+}
+
+.btn-normal .left-text {
+    position: fixed;
+    top:50%;
+    left:0;
+    margin-left:30px;
+}
+
+.btn-normal .right-text {
+    position: fixed;
+    top:50%;
+    right:0;
+    margin-right:30px;
 }
 
 .content-section {
