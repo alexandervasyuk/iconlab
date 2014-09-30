@@ -66,6 +66,7 @@ module Iconlab
     config.assets.precompile += %w( responsive.css )
     config.assets.precompile += %w( products_pages.css )
     config.assets.precompile += %w( grayscale.css )
+    config.assets.precompile += %w( nprogress.css )
     config.assets.precompile += %w( jquery.js )
     config.assets.precompile += %w( interactive-bg.js )
     config.assets.precompile += %w( jquery.onepage-scroll.min.js )
@@ -76,5 +77,6 @@ module Iconlab
     config.assets.precompile += %w( bootstrap.js )
     config.assets.precompile += %w( jquery.easing.min.js )
     config.assets.precompile += %w( grayscale.js )
+    config.assets.precompile += %w( nprogress.js )
   end
 end
