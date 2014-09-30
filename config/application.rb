@@ -58,5 +58,21 @@ module Iconlab
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.assets.precompile += %w( bootstrap.css )
+    config.assets.precompile += %w( welcome.css )
+    config.assets.precompile += %w( normalize.css )
+    config.assets.precompile += %w( responsive.css )
+    config.assets.precompile += %w( products_pages.css )
+    config.assets.precompile += %w( grayscale.css )
+    config.assets.precompile += %w( jquery.js )
+    config.assets.precompile += %w( interactive-bg.js )
+    config.assets.precompile += %w( jquery.onepage-scroll.min.js )
+    config.assets.precompile += %w( column.js )
+    config.assets.precompile += %w( counter.js )
+    config.assets.precompile += %w( scrolling.js )
+    config.assets.precompile += %w( app.js )
+    config.assets.precompile += %w( jquery.easing.min.js )
+    config.assets.precompile += %w( grayscale.js )
   end
 end
