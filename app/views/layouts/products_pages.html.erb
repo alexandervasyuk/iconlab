@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>IconLab | US</title>
+  <meta name="title" content="Iconlab | US" />
+  <meta name="description" content="Acrylic polymer implants" />
+  <link rel="shortcut icon" id="favicon" href="favicon.png"> 
+  <%= stylesheet_link_tag 'normalize' %>
+  <%= stylesheet_link_tag 'products_pages' %>
+  <%= stylesheet_link_tag 'responsive'%>
+  <%= stylesheet_link_tag 'bootstrap' %>
+  <%= stylesheet_link_tag 'grayscale'%>
+  <%= csrf_meta_tags %>
+</head>
+<body class='features' id="has-scroll">
+  <%= render 'layouts/navigation' %>
+	<%= yield %>
+  <%= javascript_include_tag 'jquery'%>
+  <%= javascript_include_tag 'jquery.onepage-scroll.min'%>
+  <%= javascript_include_tag 'column'%>
+  <%= javascript_include_tag 'counter'%>
+  <%= javascript_include_tag 'scrolling'%>
+  <%= javascript_include_tag 'app'%>
+  <%= javascript_include_tag 'jquery.easing.min'%>
+  <%= javascript_include_tag 'grayscale'%>
+</body>
+</html>

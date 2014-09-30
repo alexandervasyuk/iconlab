@@ -2,13 +2,16 @@
 <html>
 <head>
   <title>Iconlab</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+	<meta name="description” content=”One step in medicine requires numerous revolutions in science.">
+	<meta name="keywords” content=”Reperen, Membranes, Anti-adhesive, adhesions, Radicals">
 </head>
 <body>
 
+<%= render "layouts/navigation"%>
 <%= yield %>
-
+<%= render "layouts/footer"%>
 </body>
 </html>
