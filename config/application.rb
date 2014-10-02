@@ -67,6 +67,7 @@ module Iconlab
     config.assets.precompile += %w( products_pages.css )
     config.assets.precompile += %w( grayscale.css )
     config.assets.precompile += %w( nprogress.css )
+    config.assets.precompile += %w( freelancer.css )
     config.assets.precompile += %w( jquery.js )
     config.assets.precompile += %w( interactive-bg.js )
     config.assets.precompile += %w( jquery.onepage-scroll.min.js )
